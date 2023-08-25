@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#bio_p {
+    color: #020606;;
+}
+
+#bio_title{
+order: 1;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #020606;
+}
+
+header {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    background-image: url(./images/Venom_banner.png);
+    background-size: 100% 100%;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bangers', cursive;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right,#273133 , #020606);
+}
+
+nav a {
+    color:aliceblue
+    }
+
+ul {
+    color:#020606;
+}
+
+ol {
+    color: #020606;
+}
+
+#profile_pic {
+    border-radius: 60%;
+    height: 20rem;
+    width: 20rem;
+    /* border: 2px solid #000000 */
+    box-shadow: 0px 0px 20px 20px #364548 inset;
+}
+
+#pic_div {
+    margin-left: 5rem;
+}
+
+#bio {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color: #F7F5F2;
+}
+
+#skills {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: #DFDFDE;
+}
+
+#filmography {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background-color: #F7F5F2;
+}
+
+#television {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background-color: #DFDFDE;
+}
+
+#awards {
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    background-color: #F7F5F2;
+}
+
+#producing_credits {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color: #DFDFDE;
+}
+
+#education {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color: #F7F5F2;
+}
+
+#contact {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color: #DFDFDE;
+}
+
+#Title {
+    align-content: center;
+    margin-left: 5rem;
+    color: aliceblue;
+}
+
